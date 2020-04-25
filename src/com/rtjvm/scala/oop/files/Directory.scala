@@ -20,7 +20,7 @@ class Directory(override val parentPath: String, override val name: String, val 
   def findDesendant(relativePath : String) : Directory = ???
 
   def removeEntry(entryName : String) : Directory = ???
-  
+
   def addEntry(newEntry: DirEntry): Directory =
     new Directory(parentPath, name, contents :+ newEntry)
 
