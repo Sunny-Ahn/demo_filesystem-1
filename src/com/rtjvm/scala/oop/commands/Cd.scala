@@ -23,5 +23,17 @@ class Cd (dir: String) extends Command {
       State(root, destinationDirectory.asDirectory)
   }
 
-  def doFindEntry(root : Directory, path : String) : DirEntry = ???
+  def doFindEntry(root : Directory, path : String) : DirEntry = {
+    @scala.annotation.tailrec
+    def findEntryHelper(currentDirectory : Directory, path : List[String]) : DirEntry =
+      if (path.isEmpty || path.head.isEmpty) currentDirectory
+      else if (path.tail.isEmpty) currentDirectory.findEntry(path.head)
+      else {
+        val nextDir = currentDirectory.findEntry(path.head)
+        if(nextDir == null || !nextDir.isDirectory) null
+        else findEntryHelper(nextDir.asDirectory, path.tail)
+      }
+    val tokens : List[String] = path.substring(1).split(Directory.SEPERATOR).toList
+    findEntryHelper(root)
+  }
 }
