@@ -16,6 +16,10 @@ class Rm (name: String) extends Command {
   }
 
   def doRm(state : State, path : String) : State = {
+    def rmHelper(currentDirectory : Directory, path : List[String]) : Directory = {
+      if (path.isEmpty) currentDirectory
+      else if (path.tail.isEmpty) currentDirectory.removeEntry(path.head)
+    }
     val tokens = path.substring(1).split(Directory.SEPERATOR).toList
     val newRoot : Directory = rmHelper(state.root, path)
 
