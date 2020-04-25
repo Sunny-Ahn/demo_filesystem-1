@@ -19,6 +19,8 @@ class Cd (dir: String) extends Command {
     // 4. change the state
     if (destinationDirectory == null || !destinationDirectory.isDirectory)
       state.setMessage(dir + ": no such directory")
+    else
+      State(root, destinationDirectory.asDirectory)
   }
 
   def doFindEntry(root : Directory, path : String) : DirEntry = ???
