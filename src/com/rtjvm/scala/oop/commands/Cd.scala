@@ -8,6 +8,10 @@ class Cd (dir: String) extends Command {
     val root = state.root
     val wd = state.wd
     // 2. find absolute path of directory
+    val absolutePath =
+      if (dir.startWith(Directory.SEPERATOR)) dir
+      else if (wd.isRoot) wd.path + dir
+      else wd.path + Directory.SEPERATOR + dir
 
     // 3. find the directory
 
