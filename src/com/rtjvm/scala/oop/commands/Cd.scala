@@ -14,7 +14,10 @@ class Cd (dir: String) extends Command {
       else wd.path + Directory.SEPERATOR + dir
 
     // 3. find the directory
+    val destinationDirectory = doFindEntry(root, absolutePath)
 
     // 4. change the state
   }
+
+  def doFindEntry(root : Directory, path : String) : DirEntry = ???
 }
