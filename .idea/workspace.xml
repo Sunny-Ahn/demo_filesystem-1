@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="201e0f58-c2cc-446e-bd9b-9d65a54f9d01" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Cd.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Cd.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Rm.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/commands/Rm.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/files/DirEntry.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/files/DirEntry.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/files/Directory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rtjvm/scala/oop/files/Directory.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1b9lT7gOHSGsz8QfPP9p8d3LUJC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Benjamin Jin\Desktop\programming\scala\demo_filesystem\.idea" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Filesystem" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.rtjvm.scala.oop.filesystem.Filesystem" />
+      <module name="demo_filesystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/sbt-assembly-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="201e0f58-c2cc-446e-bd9b-9d65a54f9d01" name="Default Changelist" comment="" />
+      <created>1588052194758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588052194758</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3562" y="376" key="#Filesystem" timestamp="1588053640416">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3562" y="376" key="#Filesystem/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588053640416" />
+    <state x="3432" y="361" key="#Project_Structure" timestamp="1588052844276">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3432" y="361" key="#Project_Structure/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588052844276" />
+    <state x="3294" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588053699240">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3294" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588053699240" />
+    <state x="3601" y="620" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1588052224091">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3601" y="620" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588052224091" />
+    <state x="3569" y="489" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588052582127">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3569" y="489" key="#com.intellij.ide.util.TreeClassChooserDialog/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588052582127" />
+    <state x="3691" y="592" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588052218927">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3691" y="592" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588052218927" />
+    <state x="3420" y="358" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1588052215233">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3420" y="358" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588052215233" />
+    <state x="3508" y="409" key="FileChooserDialogImpl" timestamp="1588053436225">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3508" y="409" key="FileChooserDialogImpl/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588053436225" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1588054481903">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588054481903" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1588054481903">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.center/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588054481903" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1588054481903">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.left/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588054481903" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1588054481903">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.right/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588054481903" />
+    <state x="3320" y="277" key="SettingsEditor" timestamp="1588053438217">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3320" y="277" key="SettingsEditor/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588053438217" />
+    <state x="3219" y="427" key="new project wizard" timestamp="1588052765877">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3219" y="427" key="new project wizard/2560.0.2560.1400/0.0.2560.1400@2560.0.2560.1400" timestamp="1588052765877" />
+  </component>
+</project>

@@ -17,9 +17,9 @@ class Directory(override val parentPath: String, override val name: String, val 
     if (path.isEmpty) this
     else findEntry(path.head).asDirectory.findDescendant(path.tail)
 
-  def findDesendant(relativePath : String) : Directory = {
+  def findDescendant(relativePath : String) : Directory = {
     if(relativePath.isEmpty) this
-    else findDesendant(relativePath.split(Directory.SEPARATOR).toList)
+    else findDescendant(relativePath.split(Directory.SEPARATOR).toList)
   }
 
   def removeEntry(entryName : String) : Directory = {
