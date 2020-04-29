@@ -2,6 +2,8 @@ package com.rtjvm.scala.oop.files
 
 import com.rtjvm.scala.oop.filesystem.FileSystemException
 
+import scala.collection.generic.HasNewCombiner
+
 class File(override val parentPath: String, override val name: String, val contents: String)
   extends DirEntry(parentPath, name) {
 
@@ -13,6 +15,12 @@ class File(override val parentPath: String, override val name: String, val conte
   def isDirectory : Boolean = false
   def isFile : Boolean = true
   def getType: String = "File"
+
+  def setContents(newContents: String): File =
+    new File(parentPath, name, newContents)
+
+  def appendContents(newContents: String): File =
+    setContents(contents + "\n" + newContents)
 }
 
 object File {
