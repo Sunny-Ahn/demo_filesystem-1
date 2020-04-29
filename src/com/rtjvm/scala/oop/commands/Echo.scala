@@ -38,7 +38,7 @@ class Echo(args: Array[String]) extends Command {
       else currentDirectory.replaceEntry(path.head, dirEntry.asFile.setContents(contents))
     } else {
       val nextDirectory = currentDirectory.findEntry(path.head).asDirectory
-      val newnextDirectory = getRootAfterEcho(nextDirectory, path.tail. contents, append)
+      val newnextDirectory = getRootAfterEcho(nextDirectory, path.tail, contents, append)
 
       if (newnextDirectory == nextDirectory) currentDirectory
       else currentDirectory.replaceEntry(path.head, newnextDirectory)
